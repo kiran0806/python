@@ -1,0 +1,34 @@
+* Develop a program to create a class "Book" having data members 'author', 'title', & 'publisher'. 
+Derive a class "BookInfo" having data members 'price', 'stock position'.
+derive a class "BookReturn" and "BookBorrow"from "BookInfo" having data member sudentID and student_class and a method 'show()'. 
+Initialize and display the information for 3 objects of "BookReturn"
+
+
+* Bank Account Java program using inheritance and polymorphism
+create bank account with two subclasses: checking and savings
+The checking account has a overdraw limit, but the savings account cannot be used until a certain date has been reached.
+write a test program that creates objects of CheckingAccount and SavingsAccount. Ask the user to deposit and withdraw arbitrary amount from the accounts.
+Be sure to check that the input is a valid input before using it.
+use switch case statment
+
+output:
+Welcome to Bank
+1. Check Balance 
+2. Withdraw
+3. Deposit
+
+
+
+
+DATABASES = {
+        'default': {
+            'ENGINE': 'mssql',
+            'NAME': 'mydb',
+            'USER': 'user@myserver',
+            'PASSWORD': 'password',
+            
+            'OPTIONS': {
+                'driver': 'ODBC Driver 17 for SQL Server',
+            },
+        },
+    }
